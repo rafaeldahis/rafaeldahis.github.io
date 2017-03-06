@@ -1,6 +1,6 @@
 h1{
 /* RAFAEL DAHIS: */
-font-family: OpenSans;
+font-family: 'Open Sans';
 font-weight: normal;
 font-size: 48px;
 color: #000000;
@@ -12,7 +12,8 @@ text-transform: uppercase;
 
 
 h2{
-font-family: OpenSans-Bold;
+font-family: 'Open Sans';
+font-weight: bold;
 font-size: 18px;
 color: #3D3D3D;
 letter-spacing: -0.75px;
@@ -30,7 +31,8 @@ h2.help-build{
 }
 
 h3{
-font-family: OpenSans-Bold;
+font-family: 'Open Sans';
+font-weight: bold;
 font-size: 14px;
 color: #111111;
 letter-spacing: 0.38px;
@@ -38,7 +40,8 @@ margin-bottom: 3px;
 }
 
 p{
-font-family: OpenSans-Light;
+font-family: 'Open Sans';
+font-weight: lighter;
 font-size: 12px;
 color: #666666;
 letter-spacing: 0;
@@ -79,7 +82,8 @@ h1 span{line-height: 0.5em; margin: 0 auto;}
 }
 
 .contact{
-	font-family: OpenSans-Light;
+	font-family: 'Open Sans';
+	font-weight: lighter;
 	font-size: 13px;
 	margin-top: 60px;
 }
