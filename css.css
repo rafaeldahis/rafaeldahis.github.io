@@ -5,13 +5,22 @@ font-weight: normal;
 font-size: 48px;
 color: #000000;
 letter-spacing: -0.76px;
-margin-bottom: 40px;
 line-height: 34px;
 text-transform: uppercase;
 }
 
-
 h2{
+font-family: 'Open Sans';
+font-weight: normal;
+font-size: 12px;
+color: #666666;
+letter-spacing: 0;
+line-height: 15px;
+margin-top: 0px;
+margin-bottom: 20px;
+}
+
+h3{
 font-family: 'Open Sans';
 font-weight: bolder;
 font-size: 18px;
@@ -22,9 +31,9 @@ max-width: 45px;
 margin-top: 30px;
 }
 
-h2.help-build{max-width: 86px;}
+h3.help-build{max-width: 86px;}
 
-h3{
+h4{
 font-family: 'Open Sans';
 font-weight: bold;
 font-size: 14px;
@@ -55,17 +64,25 @@ color: #FFAE00;
 .photo{
 background: #D8D8D8;
 border-radius: 100px;
-width: 80px;
-margin-bottom: -30px;
+width: 90px;
+margin-bottom: -50px;
 border: 2px solid #ddd;
 margin-right: 15px;
 }
 
-@media screen and (max-width: 1000px) {
-h1{margin-top:20px;}
-.photo{display: block; margin: 0 auto; margin-bottom: 10px;}
-h1 span{line-height: 0.5em; margin: 0 auto;}
+.subtitle{
+margin-top: -25px;
+padding-left: 110px;
+margin-bottom: 35px;
 }
+
+@media screen and (max-width: 1000px) {
+h1{margin-top:20px;text-align: center}
+.photo{display: block; margin: 0 auto; margin-bottom: 10px;}
+h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
+.subtitle{margin-top: -25px !important; margin-bottom: 35px; padding-bottom: 10px; !important;padding-left: 0px;max-width: 70%; text-align: center; margin: 0 auto;}
+}
+
 .container{
 	width: 1024px;
 	max-width: 90%;
@@ -80,12 +97,13 @@ h1 span{line-height: 0.5em; margin: 0 auto;}
 .section{
 	display: inline-table;
 	width: 320px;
-	padding-right: 40px;
+	padding-right: 70px;
 }
 
 .contact{
 	font-family: 'Open Sans';
 	font-weight: lighter;
 	font-size: 13px;
-	margin-top: 60px;
+	margin-top: 30px;
+	text-align: left;
 }
