@@ -22,23 +22,24 @@ margin-bottom: 20px;
 
 h3{
 font-family: 'Open Sans';
-font-weight: bolder;
-font-size: 18px;
+font-weight: 700;
+font-size: 21px;
 color: #3D3D3D;
-letter-spacing: -0.75px;
+letter-spacing: -1px;
 border-bottom: 3px solid #FFAE00;
-max-width: 45px;
-margin-top: 30px;
+max-width: 50px;
+margin-top: 32px;
 }
 
-h3.help-build{max-width: 86px;}
+h3.help-build{max-width: 100px;}
+h3.projects{max-width: 115px;}
 
 h4{
 font-family: 'Open Sans';
-font-weight: bold;
-font-size: 14px;
+font-weight: 600;
+font-size: 16px;
 color: #111111;
-letter-spacing: 0.38px;
+letter-spacing: 0.35px;
 margin-bottom: 3px;
 }
 
@@ -81,6 +82,13 @@ h1{margin-top:20px;text-align: center}
 .photo{display: block; margin: 0 auto; margin-bottom: 10px;}
 h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 .subtitle{margin-top: -25px !important; margin-bottom: 35px; padding-bottom: 10px; !important;padding-left: 0px;max-width: 70%; text-align: center; margin: 0 auto;}
+.section{
+	display: inline-table;
+	width: 95%;
+	padding-right: 0px;
+	margin: 0 auto;
+}
+
 }
 
 .container{
@@ -96,8 +104,8 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 
 .section{
 	display: inline-table;
-	width: 320px;
-	padding-right: 70px;
+	width: 300px;
+	padding-right: 30px;
 }
 
 .contact{
@@ -106,4 +114,11 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 	font-size: 13px;
 	margin-top: 30px;
 	text-align: left;
+}
+.companies-logo{
+	height: 20px;
+	margin-right: 8px;
+}
+.company-name{
+	vertical-align: top;
 }
