@@ -84,9 +84,9 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 .subtitle{margin-top: -25px !important; margin-bottom: 35px; padding-bottom: 10px; !important;padding-left: 0px;max-width: 70%; text-align: center; margin: 0 auto;}
 .section{
 	display: inline-table;
-	width: 95%;
-	padding-right: 0px;
-	margin: 0 auto;
+	width: 95% !important;
+	padding-right: 0px !important;
+	margin: 0 auto !important;
 }
 
 }
