@@ -31,8 +31,9 @@ max-width: 50px;
 margin-top: 32px;
 }
 
-h3.help-build{max-width: 100px;}
-h3.projects{max-width: 115px;}
+h3.medium{max-width: 70px;}
+h3.help-build, h3.long{max-width: 100px;}
+h3.projects, h3.longer{max-width: 115px;}
 
 h4{
 font-family: 'Open Sans';
@@ -43,7 +44,7 @@ letter-spacing: 0.75px;
 margin-bottom: 3px;
 }
 
-p{
+p, li{
 font-family: 'Open Sans';
 font-weight: lighter;
 font-size: 12px;
@@ -53,8 +54,14 @@ line-height: 15px;
 margin-top: 0px;
 margin-bottom: 20px;
 }
+li{margin-bottom: 2px;}
 
-a{
+p > a{
+color: #888;
+text-decoration: none;
+border-bottom: 0.5px dotted #888;
+}
+h4 > a, h1 > a, a{
 color: inherit;
 text-decoration: none;
 }
@@ -95,7 +102,6 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 	max-width: 90%;
 	margin: 0 auto;
 }
-
 .header{
 	background-color: #f8f8f8;
 	padding-top: 60px;
@@ -113,6 +119,8 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 	font-size: 13px;
 	margin-top: 30px;
 	text-align: left;
+	border-top: 1px solid #e8e8e8;
+	padding-top: 10px;
 }
 .companies-logo{
 	height: 17px;
