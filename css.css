@@ -1,52 +1,45 @@
+body{font-family: 'Open Sans';}
 h1{
 /* RAFAEL DAHIS: */
-font-family: 'Open Sans';
 font-weight: normal;
 font-size: 48px;
-color: #000000;
+color: #222;
 letter-spacing: -0.76px;
 line-height: 34px;
-text-transform: uppercase;
 }
 
 h2{
-font-family: 'Open Sans';
-font-weight: normal;
-font-size: 12px;
-color: #666666;
-letter-spacing: 0;
-line-height: 15px;
-margin-top: 0px;
-margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: normal;
 }
 
 h3{
-font-family: 'Open Sans';
 font-weight: 700;
 font-size: 21px;
-color: #3D3D3D;
+color: #222;
 letter-spacing: -1px;
 border-bottom: 3px solid #FFAE00;
 max-width: 50px;
 margin-top: 16px;
 }
 
-h3.medium{max-width: 70px;}
-h3.help-build, h3.long{max-width: 100px;}
-h3.projects, h3.longer{max-width: 115px;}
+.shorter-underline{max-width: 42px;}
+.short-underline{max-width: 50px;}
+.medium-underline{max-width: 62px;}
+.long-underline{max-width: 90px;}
+.longer-underline{max-width: 108px;}
+.superlong-underline{max-width: 145px;}
 
 h4{
-font-family: 'Open Sans';
 font-weight: 600;
 font-size: 16px;
-color: #111111;
+color: #222;
 letter-spacing: 0.75px;
 margin-bottom: 3px;
 margin-top: 30px;
 }
 
 p, li{
-font-family: 'Open Sans';
 font-weight: lighter;
 font-size: 15px;
 color: #666666;
@@ -57,7 +50,7 @@ margin-bottom: 10px;
 }
 li{margin-bottom: 2px;}
 
-p > a{
+p > a, li > a{
 color: #888;
 text-decoration: none;
 border-bottom: 0.5px dotted #888;
@@ -75,23 +68,28 @@ background: #D8D8D8;
 border-radius: 100px;
 width: 100px;
 margin-bottom: -60px;
-border: 2px solid #ddd;
+border: 4px solid #fafafa;
 margin-right: 15px;
 }
 
-.subtitle{
+.subtitle, .subtitle-mobile{
 margin-top: -25px;
-padding-left: 122px;
+padding-left: 124px;
 margin-bottom: 35px;
 font-size: 14px;
 font-weight: lighter;
+color: #666666;
+letter-spacing: 0;
+line-height: 15px;
 }
+.subtitle-mobile{display: none;}
 
 @media screen and (max-width: 1000px) {
-h1{margin-top:20px;text-align: center}
+h1{margin-top:20px;margin-bottom:0px;text-align: center; line-height: 0.9em;font-size: 2em;}
 .photo{display: block; margin: 0 auto; margin-bottom: 10px;}
 h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
-.subtitle{margin-top: -25px !important; margin-bottom: 35px; padding-bottom: 10px; !important;padding-left: 0px;max-width: 70%; text-align: center; margin: 0 auto;}
+.subtitle{display: none;}
+.subtitle-mobile{display: block;padding-left: 0px;margin:auto;width: 90%;text-align: center;margin-top:-10px;}
 .section{
 	width: 95% !important;
 	padding-right: 0px !important;
@@ -100,19 +98,19 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 .section.middle{
 	padding: 0px !important;
 }
+.container{
+	width: 90% !important;
+}
 
 }
 
 .container{
 	width: 1024px;
-	max-width: 90%;
-	margin: 0 auto;
 }
 .header{
-	background-color: #f8f8f8;
-	padding-top: 60px;
+	background-color: #fcfcfc;
+	padding-top: 50px;
 }
-
 .section{
 	display: inline-table;
 	width: 315px;
@@ -122,14 +120,10 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 	padding-left: 33px;
 }
 
-.contact{
-	font-family: 'Open Sans';
+.contact{	
 	font-weight: lighter;
-	font-size: 13px;
-	margin-top: 30px;
-	text-align: left;
+	font-size: 15px;
 	border-top: 1px solid #e8e8e8;
-	padding-top: 10px;
 }
 .companies-logo{
 	height: 17px;
@@ -142,4 +136,10 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 	font-size: 13px;
 	vertical-align: super;
 	letter-spacing: 0.15px;
+}
+.project-cell{
+	background-color: #fcfcfc;
+}
+.project-cell:hover{
+	background-color: #fbfbfb;
 }
