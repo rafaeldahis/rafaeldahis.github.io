@@ -20,15 +20,15 @@ color: #222;
 letter-spacing: -1px;
 border-bottom: 3px solid #FFAE00;
 max-width: 50px;
-margin-top: 16px;
+margin-top: 24px;
 }
 
 .shorter-underline{max-width: 42px;}
 .short-underline{max-width: 50px;}
 .medium-underline{max-width: 62px;}
 .long-underline{max-width: 90px;}
-.longer-underline{max-width: 110px;}
-.superlong-underline{max-width: 145px;}
+.longer-underline{max-width: 100px;}
+.superlong-underline{max-width: 115px;}
 
 h4{
 font-weight: 600;
@@ -36,7 +36,7 @@ font-size: 16px;
 color: #222;
 letter-spacing: 0.75px;
 margin-bottom: 3px;
-margin-top: 30px;
+margin-top: 35px;
 }
 
 p, li{
@@ -48,8 +48,8 @@ line-height: 20px;
 margin-top: 0px;
 margin-bottom: 10px;
 }
-li{margin-bottom: 2px;}
-
+li{margin-bottom: 4px;}
+ul{margin-top:0px;}
 p > a, li > a{
 color: #888;
 text-decoration: none;
@@ -84,24 +84,6 @@ line-height: 21px;
 }
 .subtitle-mobile{display: none;}
 
-@media screen and (max-width: 1000px) {
-h1{margin-top:20px;margin-bottom:0px;text-align: center; line-height: 0.9em;font-size: 2em;}
-.photo{display: block; margin: 0 auto; margin-bottom: 10px;}
-h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
-.subtitle{display: block;padding-left: 0px;margin:auto;max-width: 85%;text-align: center;margin-top:5px;font-size:1em;}
-.section{
-	width: 95% !important;
-	padding-right: 0px !important;
-	margin: 0 auto !important;
-}
-.section.middle{
-	padding: 0px !important;
-}
-.container{
-	width: 90% !important;
-}
-
-}
 
 .container{
 	width: 1024px;
@@ -109,17 +91,12 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 .header{
 	background-color: #fafafa;
 	padding-top: 240px;
-	margin-bottom: 70px;
+	margin-bottom: 60px;
 }
 .section{
 	display: inline-table;
 	width: 315px;
 }
-.section.middle{
-	padding-right: 33px;
-	padding-left: 33px;
-}
-
 .contact{	
 	font-weight: lighter;
 	font-size: 15px;
@@ -143,4 +120,21 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 }
 .project-cell:hover{
 	background-color: #fbfbfb;
+}
+
+@media screen and (max-width: 1000px) {
+h1{margin-top:0px;margin-bottom:0px;text-align: center; line-height: 0.9em;font-size: 2em;}
+.header{padding-top: 100px;margin-bottom:0px;}
+.photo{display: block; margin: 0 auto; margin-bottom: 10px;}
+h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
+.subtitle{display: block;padding-left: 0px;margin:auto;max-width: 85%;text-align: center;margin-top:5px;font-size:1em;}
+.section{
+	width: 95%;
+	padding-right: 0px;
+	margin: 0 auto;
+}
+.container{
+	width: 92%;
+}
+
 }
