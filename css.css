@@ -172,4 +172,5 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 .sidebar{border-left: 0px; margin-bottom: 10px;}
 .px2{padding-left: 0.8rem !important; padding-right: 0.8rem !important;}
 p, li{font-weight: normal;}
+.break-desktop{ display: none;}
 }
