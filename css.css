@@ -51,7 +51,7 @@ margin-top: 36px;
 }
 
 p, li{
-font-weight: normal;
+font-weight: lighter;
 font-size: 15px;
 color: #444;
 letter-spacing: 0.15px;
@@ -169,4 +169,5 @@ h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 .container{width: 92%;}
 .sidebar{border-left: 0px; margin-bottom: 10px;}
 .px2{padding-left: 0.8rem !important; padding-right: 0.8rem !important;}
+p, li{font-weight: normal;}
 }
