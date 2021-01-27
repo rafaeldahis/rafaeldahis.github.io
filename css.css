@@ -3,11 +3,11 @@ h1{
 /* RAFAEL DAHIS: */
 font-weight: bold;
 font-size: 1.8em;
-color: #222;
+color: #333;
 letter-spacing: -1.2px;
 line-height: 42px;
 }
-h2 > .bold {font-weight: lighter; color: #444; font-size: 22px}
+h2 > .bold {font-weight: lighter; color: #333; font-size: 22px}
 
 h2{
 font-size: 2em;
@@ -22,7 +22,7 @@ font-weight: 700;
 h3{
 font-weight: 700;
 font-size: 24px;
-color: #222;
+color: #333;
 letter-spacing: -1px;
 border-bottom: 3px solid #FFAE00;
 margin-top: 40px;
@@ -44,7 +44,7 @@ margin-top: 40px;
 h4{
 font-weight: 600;
 font-size: 16px;
-color: #222;
+color: #515357;
 letter-spacing: 0.75px;
 margin-bottom: 4px;
 margin-top: 36px;
@@ -128,12 +128,6 @@ line-height: 20px;
 	vertical-align: super;
 	letter-spacing: 0.15px;
 }
-.project-cell{
-	background-color: #fcfcfc;
-}
-.project-cell:hover{
-	background-color: #fbfbfb;
-}
 
 .px2{
 	padding-left: 2rem !important;
@@ -195,7 +189,7 @@ line-height: 20px;
 }
 .banner{
 	margin-top: 30px;
-	background-color: #222;
+	background-color: #333;
 	border-radius: 10px;
 	align-content: center;
 	text-align: center;
