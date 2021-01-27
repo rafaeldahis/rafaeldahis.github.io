@@ -1,24 +1,22 @@
 body{font-family: 'Open Sans';}
 h1{
 /* RAFAEL DAHIS: */
-font-weight: normal;
-font-size: 2.5em;
+font-weight: bold;
+font-size: 1.8em;
 color: #222;
-letter-spacing: -0.76px;
-line-height: 34px;
-letter-spacing: -1px;
+letter-spacing: -1.2px;
+line-height: 42px;
 }
 h2 > .bold {font-weight: lighter; color: #444; font-size: 22px}
 
 h2{
 font-size: 2em;
 font-weight: normal;
-letter-spacing: -1px;
+letter-spacing: -1.2px;
 }
 
 h2 > a{
 font-weight: 700;
-	
 }
 
 h3{
@@ -27,8 +25,7 @@ font-size: 24px;
 color: #222;
 letter-spacing: -1px;
 border-bottom: 3px solid #FFAE00;
-max-width: 50px;
-margin-top: 60px;
+margin-top: 40px;
 }
 
 .shorter-underline{max-width: 42px;}
@@ -40,7 +37,10 @@ margin-top: 60px;
 .hyperlong-underline{max-width: 190px;}
 .ultralong-underline{max-width: 250px;}
 
-
+.banner > h3 {
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
 h4{
 font-weight: 600;
 font-size: 16px;
@@ -80,20 +80,20 @@ strong{
 background: #D8D8D8;
 border-radius: 100px;
 width: 140px;
-margin-bottom: -90px;
-border: 6px solid #fafafa;
+margin-bottom: -100px;
+border: 3px solid #FFAE00;
 margin-right: 15px;
 }
 
 .subtitle, .subtitle-mobile{
 margin-top: -25px;
-padding-left: 168px;
+padding-left: 162px;
 margin-bottom: 35px;
-font-size: 19px;
+font-size: 18px;
 font-weight: lighter;
 color: #666666;
 letter-spacing: 0;
-line-height: 21px;
+line-height: 20px;
 }
 .subtitle-mobile{display: none;}
 
@@ -103,8 +103,8 @@ line-height: 21px;
 }
 .header{
 	background-color: #fafafa;
-	padding-top: 210px;
-	margin-bottom: 60px;
+	padding-top: 140px;
+	margin-bottom: 00px;
 }
 .section{
 	display: inline-table;
@@ -171,6 +171,7 @@ line-height: 21px;
   line-height:1.5;
   position: relative;
   background:#F4f4f4;
+  border-radius: 0 12px 12px 0;
 }
 
 .otro-blockquote::before{
@@ -192,19 +193,28 @@ line-height: 21px;
   font-weight: bold;
   margin-top:1em;
 }
-
+.banner{
+	margin-top: 30px;
+	background-color: #222;
+	border-radius: 10px;
+	align-content: center;
+	text-align: center;
+	padding: 5px 10px;
+}
+.banner > h3, .banner > p {color: white; border: none;}
 
 @media screen and (max-width: 1000px) {
 h1{margin-top:0px;margin-bottom:0px;text-align: center; line-height: 0.9em;font-size: 2.5em;}
-.header{padding-top: 100px;margin-bottom:0px;}
+.header{padding-top: 180px;margin-bottom:-60px;}
 .photo{display: block; margin: 0 auto; margin-bottom: 10px;}
 h1 span{line-height: 0.5em; margin: 0 auto;text-align: center}
 .subtitle{display: block;padding-left: 0px;margin:auto;max-width: 85%;text-align: center;margin-top:5px;font-size:1em;}
 .bold{font-weight: bold; color: #222}
 .section{width: 95%;padding-right: 0px;margin: 0 auto;}
 .container{width: 92%;}
-.sidebar{border-left: 0px; margin-bottom: 10px;}
+.sidebar{border-left: 0px; margin-bottom: 0px;}
 .px2{padding-left: 0.8rem !important; padding-right: 0.8rem !important;}
 p, li{font-weight: normal;}
 .break-desktop{ display: none;}
+h3{margin-top: 75px;}
 }
